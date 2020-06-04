@@ -5,6 +5,22 @@
     .container {
         max-width: 750px;
     }
+    .consultation {
+        /* background: none; */
+        .container {
+            .title_left {
+                text-align: center;
+            }
+        }
+        &__descr {
+            text-align: center;
+        }
+        .feed-form {
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+    }
+    
 }
 @media (max-width: 767px) {
     .container {
@@ -82,6 +98,15 @@
         }
         &__icon {
             font-size: 12px;
+        }
+    }
+    .consultation {
+        .title_left {
+            font-size: 30px;
+        }
+        .feed-form {
+            width: 290px;
+        
         }
     }
 }
